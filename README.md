@@ -18,11 +18,11 @@ Ensure you have Python installed on your system. Then, install the required libr
 - Split the dataset into training and testing sets.
 
 ## Model Building and Training
-- 1. Define a Sequential model with three Dense layers:
+1. Define a Sequential model with three Dense layers:
 - The first layer with 32 neurons and 'relu' activation function.
 - The second layer with 64 neurons and 'relu' activation function.
 - The output layer with 1 neuron and 'sigmoid' activation function for binary classification.
-- 2. Compile the model using 'binary_crossentropy' as the loss function, 'sgd' (Stochastic Gradient Descent) as the optimizer, and track 'accuracy' as the metric.
+2. Compile the model using 'binary_crossentropy' as the loss function, 'sgd' (Stochastic Gradient Descent) as the optimizer, and track 'accuracy' as the metric.
 
 ## Training and Evaluation
 - Training: Train the model on the training data for 200 epochs with a batch size of 32.
